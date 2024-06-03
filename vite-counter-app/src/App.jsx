@@ -6,13 +6,13 @@ function App() {
 
   const IncreaseCount=()=>{
     if(count<10){
-    setCount(count++)
+    setCount(count+1)
     }
   }
 
   const DecreaseCount=()=>{
     if(count>0){
-    setCount(count--)
+    setCount(count-1)
     }
   }
 
